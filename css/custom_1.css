@@ -1,0 +1,54 @@
+/* WCAG-compliant text color overrides */
+body #eb .t-text--primary {
+  /* Original: rgba(var(--fd-primary-500),1) ~ rgb(78,114,226) (contrast ~4.35:1) */
+  color: #003366 !important;  /* A darker blue */
+}
+
+body #eb .t-text--info {
+  /* Original: #85c1e9 ~ rgb(133,193,233) (contrast likely below 4.5:1) */
+  color: #1b6fa8 !important;  /* Darkened info blue */
+}
+
+body #eb .t-text--success {
+  /* Original: #00bc65 ~ rgb(0,188,101) (contrast around 2.8–3:1 on white) */
+  color: #006644 !important;  /* Darker green for improved contrast */
+}
+
+body #eb .t-text--danger {
+  /* Original: #ec6f7f ~ rgb(236,111,127) */
+  color: #a60021 !important;  /* Darker red */
+}
+
+body #eb .t-text--warning {
+  /* Original: #f5b041 ~ rgb(245,176,65) */
+  color: #a15c00 !important;  /* Darker orange */
+}
+
+body #eb .t-text--light {
+  /* Original: #f8f9fa is nearly white */
+  color: #555555 !important;  /* A dark gray that will read on white */
+}
+
+body #eb .t-text--default {
+  /* Original: #f0f0f1 (a very light color) */
+  color: #333333 !important;  /* A much darker default for body text */
+}
+
+body #eb .t-text--fb {
+  /* Original: #0076fb */
+  color: #00509e !important;  /* Darkened Facebook blue */
+}
+
+body #eb .t-text--twitter {
+  /* Original: #1da1f2 */
+  color: #0d95e8 !important;  /* Darkened Twitter blue */
+}
+
+body #eb .t-text--linkedin {
+  /* Original: #0073b1 */
+  color: #005983 !important;  /* Darkened LinkedIn blue */
+}
+
+body #eb .mod-muted {
+    color: #565656;
+}
